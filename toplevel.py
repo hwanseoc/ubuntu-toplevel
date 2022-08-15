@@ -8,7 +8,7 @@ def replace_arch(name):
     name = re.sub('(:[a-zA-Z0-9_]*)', '', name)
     return name
 
-response = requests.get('https://releases.ubuntu.com/20.04/ubuntu-20.04.3-desktop-amd64.manifest')
+response = requests.get('https://releases.ubuntu.com/22.04.1/ubuntu-20.04.1 -desktop-amd64.manifest')
 text = response.text
 manifest = [
     replace_arch(line.split('\t')[0]) for line in text.split('\n')
