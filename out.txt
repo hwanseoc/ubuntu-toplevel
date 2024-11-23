@@ -5,13 +5,15 @@ git
 gnome-tweaks
 google-chrome-stable
 graphviz
+libc6
+libdebconfclient0
 libvips-dev
 linux-generic
 linux-tools-generic
 meld
 ncdu
+network-manager-openconnect
 nordvpn
-openconnect
 p7zip-full
 python3-dev
 python3-pip
