@@ -5,8 +5,6 @@ git
 gnome-tweaks
 google-chrome-stable
 graphviz
-libc6
-libdebconfclient0
 libvips-dev
 linux-generic
 linux-tools-generic
