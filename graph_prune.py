@@ -21,7 +21,7 @@ def build_dependency_graph(cache):
     for pkg in cache:
         if not pkg.is_installed:
             continue
-        for field in ("Depends", "Pre-Depends", "Recommends", "Suggests"):
+        for field in ("Depends", "Pre-Depends", "Recommends"):
             dep_str = pkg.installed.record.get(field)
             if not dep_str:
                 continue

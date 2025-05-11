@@ -22,7 +22,7 @@ def build_dependency_graph(cache):
     for p in cache:
         if not p.is_installed:
             continue
-        for field in ("Depends", "Pre-Depends", "Recommends", "Suggests"):
+        for field in ("Depends", "Pre-Depends", "Recommends"):
             dep_str = p.installed.record.get(field)
             if not dep_str:
                 continue
